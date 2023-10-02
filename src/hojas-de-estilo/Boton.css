@@ -1,0 +1,32 @@
+.boton-contenedor {
+    height: 80px;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #41C5EF;
+    color: white;
+    border-radius: 14px;
+    border: 3px solid black;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.clear {
+  padding-left: 42px;
+  padding-right: 42px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.igual {
+  padding-left: 47px;
+  padding-right: 47px;
+}
+
+.boton-contenedor:hover {
+  background-color: #2a7a92;
+}
